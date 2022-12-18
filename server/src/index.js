@@ -7,6 +7,8 @@ const app = express();
 const HOST = process.env.HOST || 'localhost';
 const PORT = process.env.PORT || 3000;
 
+app.use(express.json());
+
 // Add modules here
 moduleToApp(app, require('./modules/hello/hello.module'));
 
