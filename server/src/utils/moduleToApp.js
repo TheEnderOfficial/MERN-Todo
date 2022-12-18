@@ -1,4 +1,3 @@
-
 module.exports = function (app, module) {
     console.log("Mapping module:", module.name)
 
